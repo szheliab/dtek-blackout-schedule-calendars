@@ -33,7 +33,7 @@ export default function createCalendar(raw, name)
         const hour = hours[i]
 
         const status = dayScedule[hour]
-        if (status == "yes")
+        if (status == "yes" || status == "maybe")
         {
           i++;
           continue;
